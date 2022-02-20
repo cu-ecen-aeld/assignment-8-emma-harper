@@ -5,7 +5,7 @@
 
 
 qemu-system-aarch64 \
-    -M virt  \
+    -M virt  \ 
     -cpu cortex-a53 -nographic -smp 1 \
     -kernel buildroot/output/images/Image \
     -append "rootwait root=/dev/vda console=ttyAMA0" \
