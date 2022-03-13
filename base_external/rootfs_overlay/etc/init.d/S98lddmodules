@@ -7,6 +7,8 @@ case "$1" in
     modprobe hello
     /usr/bin/module_load faulty 
     /usr/bin/scull_load 
+    echo "Load aesd-char-driver"
+    start-stop-daemon -S -n aesdchar_load -a /usr/bin/aesdchar_load
     ;;
 
   stop)
@@ -14,6 +16,9 @@ case "$1" in
     rmmod hello
     /usr/bin/module_unload faulty
     /usr/bin/scull_unload
+    echo "Unload aesd-char-driver"
+    start-stop-daemon -S -n aesdchar_unload -a /usr/bin/aesdchar_load
+
     ;;
 
   *)
