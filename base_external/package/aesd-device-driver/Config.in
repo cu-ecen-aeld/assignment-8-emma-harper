@@ -1,4 +1,4 @@
-config BR2_PACKAGE_AESD_CHAR_DRIVER
+config BR2_PACKAGE_AESD_DEVICE_DRIVER
 	bool "aesd-device-driver"
    depends on BR2_LINUX_KERNEL
 	help
