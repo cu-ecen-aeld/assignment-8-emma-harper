@@ -25,5 +25,6 @@ define AESD_DEVICE_DRIVER_INSTALL_TARGET_CMDS
 	
 endef
 
+
 $(eval $(kernel-module))
 $(eval $(generic-package))
