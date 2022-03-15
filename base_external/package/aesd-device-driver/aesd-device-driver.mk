@@ -5,7 +5,7 @@
 ##############################################################
 
 # assignment 7 git reference
-AESD_DEVICE_DRIVER_VERSION = 2d8808b5e6eb23c1f99011a97d8feaa4263b4d54
+AESD_DEVICE_DRIVER_VERSION = 8aab3f995070b8d57fbdff398be1b5a29f779042
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
